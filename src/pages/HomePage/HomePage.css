@@ -1,0 +1,15 @@
+.App {
+  background-color: #202b38;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.App-logo {
+  height: 128px;
+  width: 128px;
+}
+
+.Container {
+  margin: 0 auto;
+  max-width: 800px;
+}
