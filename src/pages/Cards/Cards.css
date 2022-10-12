@@ -1,0 +1,22 @@
+.link-article{
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .link-article article {
+    border-left: 2px solid #fff;
+    transition-duration: .1s;
+    padding: 1em;
+  }
+  
+  .link-article article:hover {
+    background-color: #2a394b;
+  }
+  
+  .link-article article h2{
+    margin-top: 0;
+  }
+  
+  .link-article article p{
+    margin-bottom: 0;
+  }

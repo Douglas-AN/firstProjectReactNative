@@ -16,12 +16,15 @@ function App() {
       <div className="Container">
         <img className="App-logo" alt="dogecoin" src="https://upload.wikimedia.org/wikipedia/en/d/d0/Dogecoin_Logo.png" />
         <h1>Exchanges acceptant le Dogecoin</h1>
-        {data.map(function (coin) {
-          return (
-            <Cards data={coin} key={coin.name + coin.network}></Cards>
-          )
-        })}
-
+        <div class="home-grid">
+          {
+            data.map(function (coin) {
+              return (
+                <Cards data={coin} key={coin.name + coin.network}></Cards>
+              )
+            })
+          }
+        </div>
       </div>
     </div>
   );

@@ -2,7 +2,14 @@ import './Cards.css';
 
 function Cards({data}) {
   return (
-    <h1>{data.name}</h1>
+    <a className='link-article'>
+      <article>
+        <header>
+          <h2>{data.name}</h2>
+        </header>
+        <p>{data.ticker + ' ' + data.network}</p>
+      </article>
+    </a>
   );
 }
 
